@@ -7,7 +7,6 @@ if status is-interactive
     alias lfile="ls -l | grep -E -v '^d'"
     alias ldir="ls -l | grep -E '^d'"
     alias ls='ls -Alh --color=always'   # show hidden files
-    alias sha256='openssl sha256'
     alias rg='rg --hidden'
     alias tree='tree -l -C'
 
