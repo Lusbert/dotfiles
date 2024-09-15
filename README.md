@@ -36,7 +36,7 @@ example
 └── c
     └── d
 ```
-it symlinks the directory `c` and all its files to the ~
+it symlinks the directory `c` and all its files to the HOME directory
 ```
 ├── example
 │   ├── a
