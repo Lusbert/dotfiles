@@ -1,7 +1,7 @@
 ## Requirements
 these are for Arch, i have no idea what people may use on other distros
 ```
-pacman -S tree bat fzf fish zoxide ripgrep fastfetch kitty qview
+pacman -S tree bat fzf fish zoxide ripgrep fastfetch kitty qview lite-xl
 ```
 
 ## WM and other not so needed stuff
@@ -19,7 +19,7 @@ pacman -S ttf-jetbrains-mono-nerd
 ## Lite-XL (packages i use)
 first id recommend getting [LPM](https://github.com/adamharrison/lite-xl-plugin-manager)
 ```
-./lpm install base16 autosaveonfocuslost nerdicons selectionhighlight settings widget
+./lpm install base16 autosaveonfocuslost nerdicons selectionhighlight settings widget eofnewline
 ```
 
 ## GNU Stow
@@ -54,3 +54,4 @@ it symlinks the directory `c` and all its files to the HOME directory
 ├── c -> example/c
 │   └── d
 ```
+
