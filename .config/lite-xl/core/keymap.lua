@@ -286,6 +286,11 @@ if macos then
   return keymap
 end
 
+local function zen_mode()
+  command.perform "treeview:toggle"
+  command.perform "core:toggle-fullscreen"
+end
+
 keymap.add_direct {
   ["ctrl+shift+p"] = "core:find-command",
   ["ctrl+p"] = "core:find-file",
@@ -405,7 +410,10 @@ keymap.add_direct {
   ["shift+pageup"] = "doc:select-to-previous-page",
   ["shift+pagedown"] = "doc:select-to-next-page",
   ["alt+shift+up"] = "doc:create-cursor-previous-line",
-  ["alt+shift+down"] = "doc:create-cursor-next-line"
+  ["alt+shift+down"] = "doc:create-cursor-next-line",
+
+  ["ctrl+alt+f"] = zen_mode
 }
 
 return keymap
+
