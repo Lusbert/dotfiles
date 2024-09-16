@@ -16,7 +16,13 @@ pacman -S i3-wm i3blocks i3lock i3status
 pacman -S ttf-jetbrains-mono-nerd
 ```
 
-### GNU Stow
+## Lite-XL (packages i use)
+first id recommend getting [LPM](https://github.com/adamharrison/lite-xl-plugin-manager)
+```
+./lpm install base16 autosaveonfocuslost nerdicons selectionhighlight settings widget
+```
+
+## GNU Stow
 ```
 pacman -S stow
 ```
@@ -48,4 +54,3 @@ it symlinks the directory `c` and all its files to the HOME directory
 ├── c -> example/c
 │   └── d
 ```
-
