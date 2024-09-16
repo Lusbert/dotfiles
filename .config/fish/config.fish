@@ -11,6 +11,7 @@ if status is-interactive
     alias tree='tree -l -C'
 
     # i have no idea what to call this part
+    set EDITOR nvim
     set -U fish_greeting
     zoxide init fish | source
     set -gx FZF_CTRL_T_OPTS "--preview='bat --style=numbers --color=always --line-range :500 {}'"
