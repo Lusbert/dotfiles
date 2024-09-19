@@ -1,9 +1,11 @@
 ## Requirements
 these are for Arch, i have no idea what people may use on other distros
 ```
-pacman -S tree bat fzf fish zoxide ripgrep fastfetch kitty qview lite-xl
+pacman -S tree bat fzf fish zoxide ripgrep fastfetch kitty lite-xl
 ```
-
+```
+yay qview
+```
 ## WM and other not so needed stuff
 
 ```
