@@ -19,10 +19,10 @@ return {
         ["visible"] = false
       }
     },
+    ["scroll_past_end"] = false,
     ["statusbar"] = {
       ["messages"] = true
     },
     ["transitions"] = false
   }
 }
-

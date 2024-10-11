@@ -10,6 +10,9 @@ if status is-interactive
     alias rg='rg --hidden'
     alias tree='tree -l -C'
 
+    # PATH stuff
+    fish_add_path /home/lusbert/.juliaup/bin/
+
     # i have no idea what to call this part
     set EDITOR nvim
     set -U fish_greeting
@@ -18,3 +21,4 @@ if status is-interactive
     set -gx FZF_ALT_C_OPTS "--preview='tree -C {} | head -200'"
     fzf --fish | source
 end
+
