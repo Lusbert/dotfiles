@@ -15,7 +15,9 @@ if status is-interactive
 
     # i have no idea what to call this part
     set EDITOR nvim
-    set -U fish_greeting
+    function fish_greeting
+        fastfetch -c ~/.config/fastfetch/small.jsonc
+    end
     zoxide init fish | source
     set -gx FZF_CTRL_T_OPTS "--preview='bat --style=numbers --color=always --line-range :500 {}'"
     set -gx FZF_ALT_C_OPTS "--preview='tree -C {} | head -200'"
