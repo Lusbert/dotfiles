@@ -18,9 +18,7 @@ if status is-interactive
     function fish_greeting
         fastfetch -c ~/.config/fastfetch/small.jsonc
     end
-    zoxide init fish | source
     set -gx FZF_CTRL_T_OPTS "--preview='bat --style=numbers --color=always --line-range :500 {}'"
     set -gx FZF_ALT_C_OPTS "--preview='tree -C {} | head -200'"
     fzf --fish | source
 end
-
