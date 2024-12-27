@@ -1,0 +1,61 @@
+{
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "One Dark"
+    },
+    "buffer_font_family": "JetBrainsMonoNL Nerd Font",
+    "ui_font_size": 16,
+    "buffer_font_size": 13,
+    "show_completions_on_input": false,
+    "cursor_blink": false,
+    "use_autoclose": false,
+    "use_auto_surround": false,
+    "wrap_guides": [120],
+
+    "collaboration_panel": {
+        "button": false
+    },
+    "scrollbar": {
+        "git_diff": false
+    },
+    "outline_panel": {
+        "dock": "right",
+        "git_status": false
+    },
+    "chat_panel": {
+        "button": false
+    },
+    "notification_panel": {
+        "button": false
+    },
+    "assistant": {
+        "version": "2",
+        "enabled": false
+    },
+    "tab_size": 4,
+
+    "terminal": {
+        "dock": "bottom",
+        "button": false
+    },
+    "features": {
+        "inline_completion_provider": "none"
+    },
+    "git": {
+        "git_gutter": "hide",
+        "inline_blame": {
+            "enabled": false
+        }
+    },
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 20000
+        }
+    },
+    "languages": {
+        "C": {
+            "tab_size": 4
+        }
+    }
+}

@@ -1,0 +1,31 @@
+general {
+        colors = true
+        interval = 5
+}
+
+order += "volume master"
+order += "memory"
+order += "tztime local"
+order += "tztime london"
+order += "tztime local_date"
+
+tztime local_date{
+        format = "%Y/%m/%d"
+}
+tztime local {
+        format = "LO: %H:%M:%S"
+}
+tztime london {
+        format = "UK: %H:%M:%S"
+        timezone = "Europe/London"
+}
+memory {
+        format = "%used/%total"
+}
+volume master {
+        format = "♪: %volume"
+        format_muted = "M: %volume"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
