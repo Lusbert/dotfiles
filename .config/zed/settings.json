@@ -55,6 +55,7 @@
     },
     "languages": {
         "C": {
+            "auto_indent_on_paste": false,
             "tab_size": 4
         }
     }
