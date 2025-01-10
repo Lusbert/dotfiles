@@ -4,10 +4,10 @@ if status is-interactive
     alias bat="bat --style=numbers --color=always"
     alias zed=zeditor
     alias date="date \"+%Y-%m-%d %A %T %B UTC%Z\""
+    alias ls="ls -Alh --si --color=always"
     set -Ux LESS '--ignore-case --incsearch --search-options=W --quiet --long-prompt --wordwrap --no-vbell --use-color'
 
     abbr -a -- mkdir  mkdir -p
-    abbr -a -- ls     ls -Alh --si --color=always
     abbr -a -- rg     rg --hidden -i
     abbr -a -- du     du -sh --si
     abbr -a -- ncdu   ncdu --color dark --si
