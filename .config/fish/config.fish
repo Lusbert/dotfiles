@@ -4,7 +4,7 @@ if status is-interactive
     alias bat="bat --style=numbers --color=always"
     alias zed=zeditor
     alias date="date \"+%Y-%m-%d %A %T %B UTC%Z\""
-    alias ls="ls -Alh --si --color=always"
+    alias ls="ls -Alh --si --color=always --group-directories-first"
     set -Ux LESS '--ignore-case --incsearch --search-options=W --quiet --long-prompt --wordwrap --no-vbell --use-color'
 
     abbr -a -- mkdir  mkdir -p
@@ -12,8 +12,6 @@ if status is-interactive
     abbr -a -- du     du -sh --si
     abbr -a -- ncdu   ncdu --color dark --si
     abbr -a -- tree   tree -l -C
-    abbr -a -- sudo     doas
-    abbr -a -- sudoedit doasedit
 
     # PATH stuff
     fish_add_path /home/lusbert/.juliaup/bin/
