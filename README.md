@@ -1,10 +1,13 @@
 ## Requirements
 these are for Arch, i have no idea what people may use on other distros
 ```
-pacman -S tree bat fzf fish ripgrep fastfetch kitty lite-xl opendoas
+pacman -S tree bat fzf fish ripgrep fastfetch kitty lite-xl moreutils xsel
 ```
 ```
-yay qview zed doas-sudo-shim doasedit-alternative
+yay qview zed
+```
+```
+cargo install faketty
 ```
 ## WM and other not so needed stuff
 
