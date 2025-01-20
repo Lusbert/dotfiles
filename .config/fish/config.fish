@@ -15,6 +15,7 @@ if status is-interactive
 
     # PATH stuff
     fish_add_path /home/lusbert/.juliaup/bin/
+    fish_add_path /home/lusbert/.cargo/bin
 
     # i have no idea what to call this part
     set EDITOR nvim
