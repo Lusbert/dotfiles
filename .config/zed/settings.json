@@ -24,7 +24,7 @@
         "git_status": false
     },
     "chat_panel": {
-        "button": false
+        "button": "never"
     },
     "notification_panel": {
         "button": false
@@ -37,7 +37,7 @@
 
     "terminal": {
         "dock": "bottom",
-        "button": false
+        "button": true
     },
     "features": {
         "inline_completion_provider": "none"
