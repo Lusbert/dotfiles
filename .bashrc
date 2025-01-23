@@ -16,6 +16,8 @@ alias rg="rg --hidden -i"
 alias du="du -sh --si"
 alias ncdu="ncdu --color dark --si"
 
+PATH=$PATH:~/opt/cuda/bin/
+
 # >>> juliaup initialize >>>
 
 # !! Contents within this block are managed by juliaup !!
