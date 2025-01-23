@@ -14,9 +14,8 @@ if status is-interactive
     abbr -a -- date   date \"+%Y-%m-%d %A %T %B UTC%Z\"
 
     # PATH stuff
-    fish_add_path /home/lusbert/.juliaup/bin/
-    fish_add_path /home/lusbert/.cargo/bin/
-    fish_add_path /opt/cuda/bin/
+    fish_add_path /home/lusbert/.juliaup/bin
+    fish_add_path /home/lusbert/.cargo/bin
 
     # i have no idea what to call this part
     set EDITOR nvim
