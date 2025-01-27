@@ -1,7 +1,7 @@
 ## Requirements
 these are for Arch, i have no idea what people may use on other distros
 ```
-pacman -S tree bat fzf fish ripgrep fastfetch kitty lite-xl moreutils xsel
+pacman -S tree bat fzf fish ripgrep fastfetch kitty lite-xl moreutils xsel onefetch tokei
 ```
 ```
 yay qview zed
