@@ -24,7 +24,7 @@ pacman -S ttf-jetbrains-mono-nerd
 ## Lite-XL (packages i use)
 first id recommend getting [LPM](https://github.com/adamharrison/lite-xl-plugin-manager)
 ```
-./lpm install base16 autosaveonfocuslost nerdicons selectionhighlight settings widget eofnewline
+./lpm install base16 autosaveonfocuslost nerdicons selectionhighlight settings widget
 ```
 
 ## GNU Stow
